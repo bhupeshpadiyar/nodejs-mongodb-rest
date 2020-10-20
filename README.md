@@ -29,17 +29,17 @@ Following are the Request syntex:
 
 #### Request Body : 
 
-`{
+```{
     "firstName": "Bhupesh",
     "lastName": "Singh",
     "email": "bhupeshpadiyar.com@gmail.com",
     "age": 32,
     "address": "Mont Kiara, Kuala Lumpur, Malasysia, 50480"
-}`
+}```
 
 #### Response : 
 
-`{
+```{
     "status": 200,
     "message": "New User created successfully!!",
     "data": {
@@ -53,7 +53,7 @@ Following are the Request syntex:
         "address": "Mont Kiara, Kuala Lumpur, Malasysia, 50480",
         "__v": 0
     }
-}`
+}```
 
 
 ### Get User By Id service request and response
@@ -66,7 +66,7 @@ Following are the Request syntex:
 
 #### Response : 
 
-`{
+```{
     "status": 200,
     "message": "User details fetched successfully!!",
     "data": {
@@ -80,7 +80,7 @@ Following are the Request syntex:
         "address": "Mont Kiara, Kuala Lumpur, Malasysia, 50480",
         "__v": 0
     }
-}`
+}```
 
 
 ### List All Users service request and response
@@ -93,7 +93,7 @@ Following are the Request syntex:
 
 #### Response : 
 
-`{
+```{
     "status": 200,
     "message": "Users retrieved successfully!!",
     "data": [
@@ -120,7 +120,7 @@ Following are the Request syntex:
             "__v": 0
         }
     ]
-}`
+}```
 
 ### Update User service request and response
 
@@ -132,17 +132,17 @@ Following are the Request syntex:
 
 #### Request Body : 
 
-`{
+```{
     "firstName": "Bhupesh",
     "lastName": "Singh",
     "email": "bhupeshpadiyar.com@gmail.com",
     "age": 32,
     "address": "Mont Kiara, Kuala Lumpur, Malasysia, 50480"
-}`
+}```
 
 #### Response : 
 
-`{
+```{
     "status": 200,
     "message": "User Info updated successfully!!",
     "data": {
@@ -156,7 +156,7 @@ Following are the Request syntex:
         "address": "Mont Kiara, Kuala Lumpur, Malasysia, 50480",
         "__v": 0
     }
-}`
+}```
 
 
 ### Delete User service request and response
@@ -169,7 +169,7 @@ Following are the Request syntex:
 
 #### Response : 
 
-{
+```{
     "status": 200,
     "message": "User Info updated successfully!!",
     "data": {
@@ -177,7 +177,7 @@ Following are the Request syntex:
         "ok": 1,
         "deletedCount": 1
     }
-}
+}```
 
 
 
