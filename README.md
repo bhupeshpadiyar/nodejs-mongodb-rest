@@ -2,6 +2,7 @@
 CRUD REST application with NodeJS and MongoDB
 
 # Steps to start the application
+----
 ## Step 1: Download the application
 ## Step 2: install node dependencies by following comand
 
@@ -29,17 +30,20 @@ Following are the Request syntex:
 
 #### Request Body : 
 
-```{
+```json
+{
     "firstName": "Bhupesh",
     "lastName": "Singh",
     "email": "bhupeshpadiyar.com@gmail.com",
     "age": 32,
     "address": "Mont Kiara, Kuala Lumpur, Malasysia, 50480"
-}```
+}
+```
 
 #### Response : 
 
-```{
+```json
+{
     "status": 200,
     "message": "New User created successfully!!",
     "data": {
@@ -53,7 +57,8 @@ Following are the Request syntex:
         "address": "Mont Kiara, Kuala Lumpur, Malasysia, 50480",
         "__v": 0
     }
-}```
+}
+```
 
 
 ### Get User By Id service request and response
@@ -66,7 +71,8 @@ Following are the Request syntex:
 
 #### Response : 
 
-```{
+```json
+{
     "status": 200,
     "message": "User details fetched successfully!!",
     "data": {
@@ -80,7 +86,8 @@ Following are the Request syntex:
         "address": "Mont Kiara, Kuala Lumpur, Malasysia, 50480",
         "__v": 0
     }
-}```
+}
+```
 
 
 ### List All Users service request and response
@@ -93,7 +100,8 @@ Following are the Request syntex:
 
 #### Response : 
 
-```{
+```json
+{
     "status": 200,
     "message": "Users retrieved successfully!!",
     "data": [
@@ -120,7 +128,8 @@ Following are the Request syntex:
             "__v": 0
         }
     ]
-}```
+}
+```
 
 ### Update User service request and response
 
@@ -132,17 +141,20 @@ Following are the Request syntex:
 
 #### Request Body : 
 
-```{
+```json
+{
     "firstName": "Bhupesh",
     "lastName": "Singh",
     "email": "bhupeshpadiyar.com@gmail.com",
     "age": 32,
     "address": "Mont Kiara, Kuala Lumpur, Malasysia, 50480"
-}```
+}
+```
 
 #### Response : 
 
-```{
+```json
+{
     "status": 200,
     "message": "User Info updated successfully!!",
     "data": {
@@ -156,7 +168,8 @@ Following are the Request syntex:
         "address": "Mont Kiara, Kuala Lumpur, Malasysia, 50480",
         "__v": 0
     }
-}```
+}
+```
 
 
 ### Delete User service request and response
@@ -169,7 +182,8 @@ Following are the Request syntex:
 
 #### Response : 
 
-```{
+```json
+{
     "status": 200,
     "message": "User Info updated successfully!!",
     "data": {
@@ -177,7 +191,8 @@ Following are the Request syntex:
         "ok": 1,
         "deletedCount": 1
     }
-}```
+}
+```
 
 
 
