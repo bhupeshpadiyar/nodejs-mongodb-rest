@@ -9,6 +9,8 @@ CRUD REST application with NodeJS and MongoDB
 
 ## Step 3: Configure your mongodb connection url in index.js file
 
+`mongoose.connect('mongodb://localhost:27017/sb_rest', { useNewUrlParser: true, useUnifiedTopology: true});`
+
 ## Step 4: Start the application using 
 
 `node index.js`
