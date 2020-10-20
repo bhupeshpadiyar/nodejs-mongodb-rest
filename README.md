@@ -1,8 +1,13 @@
 # nodejs-mongodb-rest
+----
 CRUD REST application with NodeJS and MongoDB
 
+Read full article on my blog http://bhupeshpadiyar.com
+
+https://www.bhupeshpadiyar.com/2019/12/building-a-crud-rest-api-with-mongodb-mongoose-and-nodejs/
+
 # Steps to start the application
-----
+
 ## Step 1: Download the application
 ## Step 2: install node dependencies by following comand
 
